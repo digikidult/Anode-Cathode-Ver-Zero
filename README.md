@@ -1,17 +1,13 @@
-# Ver. Zero Project v1.0A — GitHub Pages website
+# Ver. Zero Project v1.0A — Retro GitHub Pages
 
-Static bilingual website based on the supplied English and Traditional Chinese project READMEs.
+Static bilingual website (English / Traditional Chinese). Includes **local image assets** and interactive WonderSwan-style console, image zoom, LCD color switch, SHA-256 copy buttons and responsive layout.
 
-## Publish
-1. Upload the contents of this folder to the root of a GitHub repository.
-2. In **Settings → Pages**, select **Deploy from a branch**, choose **main** and **/(root)**, then save.
-3. Open the GitHub Pages URL once deployed. `index.html` is the default English page.
+## Deploy
 
-## Files
-- `index.html`: English
-- `index-zh-TW.html`: Traditional Chinese
-- `assets/style.css`: Shared styling
-- `assets/site.js`: Language switch section preservation
-- `assets/*.jpg`: Images extracted from the supplied README documents
+1. Upload **both HTML files and the entire `assets/` directory** to the root of your GitHub repository, preserving folder names.
+2. In repository **Settings → Pages**, choose **Deploy from a branch → main → /(root)**.
+3. Open the Pages URL. `index.html` is the default English page; use the language switch for Traditional Chinese.
 
-The site does **not** distribute ROMs or link to an IPS download, since no public release URL was provided. Add your verified GitHub Release URL when available.
+**Image troubleshooting:** URLs are relative (`assets/title-screen.jpg` and `assets/veedramon.jpg`). Both files must exist under `assets/` in the published branch. GitHub filenames are case-sensitive. Avoid uploading only the HTML files.
+
+No ROM is distributed. This site documents the Japanese Anode Tamer Rev.1 IPS patch only. The patch download URL is not provided until a release link is supplied.
